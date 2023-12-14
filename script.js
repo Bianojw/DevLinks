@@ -9,11 +9,11 @@ function toggleMode() {
     if (html.classList.contains("light")) {
         // if light mode, add light img
         img.setAttribute("src", "./assets/avatar-light.png"),
-        img.setAttribute("alt", "Foto Mayk Brito com fundo do dark mode")
+        img.setAttribute("alt", "Foto Fabiano, com oculos escuro na praia")
     }   else {
             // if dark mode, keep regular img
             img.setAttribute("src", "./assets/avatar.png")
-            img.setAttribute("alt", "Foto de Mayk Brito sorrindo, com fundo laranja")
+            img.setAttribute("alt", "Foto de Fabiano, com gravata vermelha")
             }
     /* 
     if(html.classList.contains('light')) {
